@@ -6,7 +6,7 @@ import { Component, OnInit,Input } from '@angular/core';
   styleUrls: ['./price-card.component.css']
 })
 export class PriceCardComponent implements OnInit {
-  @Input() cardData = {};
+  @Input() cardData:any = {};
   constructor() { }
 
   ngOnInit() {
